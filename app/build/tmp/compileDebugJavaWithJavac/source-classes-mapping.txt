@@ -1,0 +1,10 @@
+com/main/nagapp/databinding/ActivityMainBinding.java
+ com.main.nagapp.databinding.ActivityMainBinding
+com/main/nagapp/databinding/FragmentFirstBinding.java
+ com.main.nagapp.databinding.FragmentFirstBinding
+com/main/nagapp/databinding/ContentMainBinding.java
+ com.main.nagapp.databinding.ContentMainBinding
+com/main/nagapp/databinding/FragmentSecondBinding.java
+ com.main.nagapp.databinding.FragmentSecondBinding
+com/main/nagapp/BuildConfig.java
+ com.main.nagapp.BuildConfig
