@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.EditText
 import androidx.navigation.fragment.findNavController
 import com.main.nagapp.databinding.FragmentSecondBinding
 
@@ -31,8 +33,25 @@ class SecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        var question = ""
+        var yesMessage = ""
+        var noMessage = ""
+        var time = ""
+        // when the add button is clicked, get information into strings to then add into database, switch screens
         binding.addButton.setOnClickListener {
+            question = binding.addTitle.getText().toString()
+            time = binding.editTextTime.getText().toString()
+            yesMessage = binding.yesMessage.getText().toString()
+            noMessage = binding.noMessage.getText().toString()
+            if (question == "" || yesMessage == "" || noMessage == "" || time == ""){
+                // play an animation that says user must fill out all boxes
+            } else {
+                // add to database
+                findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+            }
+        }
+        // when the quit button is clicked, don't get information, switch screens
+        binding.quitButton.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
     }
