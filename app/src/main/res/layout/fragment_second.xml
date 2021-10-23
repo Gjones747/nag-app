@@ -94,6 +94,7 @@
         android:layout_marginStart="35dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Enter message for yes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chip4" />
@@ -105,6 +106,7 @@
         android:layout_marginStart="35dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Enter message for no"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chip5" />
@@ -117,7 +119,9 @@
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="time"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_title" />
+        app:layout_constraintTop_toBottomOf="@+id/add_title"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
