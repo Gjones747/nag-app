@@ -4,6 +4,7 @@ package com.main.nagapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -25,16 +26,20 @@ public final class FragmentFirstBinding implements ViewBinding {
   public final FloatingActionButton fab2;
 
   @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
   public final TextView textviewFirst;
 
   @NonNull
   public final ScrollView toDoItems;
 
   private FragmentFirstBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FloatingActionButton fab2, @NonNull TextView textviewFirst,
-      @NonNull ScrollView toDoItems) {
+      @NonNull FloatingActionButton fab2, @NonNull ImageView imageView3,
+      @NonNull TextView textviewFirst, @NonNull ScrollView toDoItems) {
     this.rootView = rootView;
     this.fab2 = fab2;
+    this.imageView3 = imageView3;
     this.textviewFirst = textviewFirst;
     this.toDoItems = toDoItems;
   }
@@ -72,6 +77,12 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
       id = R.id.textview_first;
       TextView textviewFirst = ViewBindings.findChildViewById(rootView, id);
       if (textviewFirst == null) {
@@ -84,7 +95,8 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentFirstBinding((ConstraintLayout) rootView, fab2, textviewFirst, toDoItems);
+      return new FragmentFirstBinding((ConstraintLayout) rootView, fab2, imageView3, textviewFirst,
+          toDoItems);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

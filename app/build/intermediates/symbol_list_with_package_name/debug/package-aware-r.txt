@@ -1680,6 +1680,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_clock_black_24dp
+drawable ic_elephant
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1797,9 +1798,7 @@ id activity_chooser_view_content
 id add
 id add_actual_title
 id add_actual_title2
-id add_bad
 id add_button
-id add_good
 id add_title
 id alertTitle
 id aligned
@@ -1834,8 +1833,6 @@ id chip
 id chip1
 id chip2
 id chip3
-id chip4
-id chip5
 id chip_group
 id chronometer
 id circle_center
@@ -1884,8 +1881,6 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
-id editTextTextPersonName
-id editTextTextPersonName2
 id editTextTime
 id edit_query
 id elastic
@@ -1928,6 +1923,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView3
 id info
 id invisible
 id inward
@@ -2006,6 +2003,7 @@ id nav_host_fragment_container
 id nav_host_fragment_content_main
 id navigation_header_container
 id never
+id noMessage
 id noScroll
 id none
 id normal
@@ -2032,6 +2030,8 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id quit
+id quit_button
 id radio
 id ratio
 id rectangles
@@ -2157,6 +2157,7 @@ id withText
 id withinBounds
 id wrap
 id wrap_content
+id yesMessage
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
