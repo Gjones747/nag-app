@@ -5,8 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.main.nagapp.databinding.FragmentFirstBinding
+import java.security.Key
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -14,6 +16,7 @@ import com.main.nagapp.databinding.FragmentFirstBinding
 class FirstFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
+
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,8 +27,19 @@ class FirstFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
 
+        // THIS IS HOW TO GET THE ITEMS
+        val dataBaseHelper = DataBaseHelper(this.context)
+        val todoItems:HashMap<Int, ToDoModel> = dataBaseHelper.showAll()
+        for (key in todoItems.keys){
+            val item = todoItems.get(key)
+            Toast.makeText(this.context, item.toString(), Toast.LENGTH_SHORT).show()
+        }
+
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
+
+
+
 
     }
 

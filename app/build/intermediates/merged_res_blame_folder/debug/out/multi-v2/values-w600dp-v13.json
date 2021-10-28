@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "outputFile": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "41",
-                        "endOffsets": "53"
+                        "endOffsets": "54"
                     },
                     "to": {
                         "startLines": "2",

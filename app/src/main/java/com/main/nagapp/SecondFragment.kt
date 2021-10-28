@@ -7,8 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.main.nagapp.databinding.FragmentSecondBinding
+
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
@@ -47,7 +49,14 @@ class SecondFragment : Fragment() {
                 // play an animation that says user must fill out all boxes
             } else {
                 // add to database
+                val toDoModel = ToDoModel(question, yesMessage, noMessage, time)
+                val dataBaseHelper = DataBaseHelper(this.context)
+                val success = dataBaseHelper.addOne(toDoModel)
+                if (success) {
+                    Toast.makeText(this.context, "Success", Toast.LENGTH_SHORT).show()
+                }
                 findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+
             }
         }
         // when the quit button is clicked, don't get information, switch screens

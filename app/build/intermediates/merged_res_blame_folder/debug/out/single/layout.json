@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
-        "source": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\settings.xml",
-        "source": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\src\\main\\res\\layout\\settings.xml"
+        "merged": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\settings.xml",
+        "source": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\src\\main\\res\\layout\\settings.xml"
     },
     {
-        "merged": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\src\\main\\res\\layout\\fragment_second.xml"
+        "merged": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\3 em\\Desktop\\Brian's Folder\\Coding\\nagapp\\version 1\\nag-app-main\\app\\src\\main\\res\\layout\\fragment_first.xml"
+        "merged": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Coding-Projects\\Android-Projects\\nag-app\\app\\src\\main\\res\\layout\\content_main.xml"
     }
 ]
